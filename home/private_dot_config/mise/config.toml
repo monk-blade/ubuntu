@@ -1,0 +1,7 @@
+[tools]
+chezmoi = "latest"
+ctop = "latest"
+lazydocker = "latest"
+lazygit = "latest"
+neovim = "latest"
+node = "22"
