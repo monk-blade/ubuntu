@@ -12,6 +12,6 @@ packages_list=""
 package={{ . | quote}}
 packages_list="$packages_list $package"
 {{ end -}}
-if command -v yay > /dev/null; then
+if command -v flatpak > /dev/null; then
     flatpak install -y flathub $packages_list 
 fi

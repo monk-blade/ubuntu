@@ -68,3 +68,4 @@ packages:
     - 'org.wezfurlong.wezterm'
     - 'org.qbittorrent.qBittorrent'
     - 'com.rtosta.zapzap'
+    - 'org.gimp.GIMP'

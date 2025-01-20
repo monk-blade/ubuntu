@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # ~/setup_docker.sh
-# ============================================================
+
 
 
 command_exists() {
@@ -36,10 +36,6 @@ main() {
 
         # Setting up Docker
         sudo usermod -aG docker $USER
-
-        # {{- if .is_wsl }}
-        echo "[boot]\nsystemd=true" | sudo tee -a /etc/wsl.conf
-        # {{- end }}
     else
         printf -- "%sDocker already installed, skipping.%s\n"
     fi
