@@ -67,3 +67,4 @@ packages:
     - 'org.telegram.desktop'
     - 'org.wezfurlong.wezterm'
     - 'org.qbittorrent.qBittorrent'
+    - 'com.rtosta.zapzap'
