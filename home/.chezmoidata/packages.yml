@@ -51,7 +51,7 @@ packages:
     - 'wl-clipboard'
     - 'zoxide'
     - 'xdg-utils'
-    - 'xdg-portal-gtk'
+    - 'xdg-desktop-portal-gtk'
     - 'fcitx5'
     - 'fcitx5-modules-dev' 
 

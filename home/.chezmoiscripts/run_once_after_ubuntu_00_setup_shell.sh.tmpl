@@ -3,8 +3,6 @@
 # ~/setup_shell.sh
 # ============================================================
 
-# {{- if and .is_ubuntu }}
-
 command_exists() {
     command -v "$@" >/dev/null 2>&1
 }
@@ -31,5 +29,3 @@ main() {
 }
 
 main "$@"
-
-# {{- end }}
