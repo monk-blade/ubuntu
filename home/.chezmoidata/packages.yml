@@ -1,5 +1,5 @@
 packages:
-  ubuntu:
+  apt:
     - 'git'
     - 'htop'
     - 'curl'

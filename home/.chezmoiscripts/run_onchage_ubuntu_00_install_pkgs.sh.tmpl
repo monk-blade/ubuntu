@@ -1,0 +1,17 @@
+#! /bin/sh
+
+packages_list=""
+{{ range .packages.apt -}}
+package={{ . | quote}}
+packages_list="$packages_list $package"
+{{ end -}}
+sudo apt install -y $packages_list 
+
+packages_list=""
+{{ range .packages.flatpak -}}
+package={{ . | quote}}
+packages_list="$packages_list $package"
+{{ end -}}
+if command -v yay > /dev/null; then
+    flatpak install -y flathub $packages_list 
+fi
