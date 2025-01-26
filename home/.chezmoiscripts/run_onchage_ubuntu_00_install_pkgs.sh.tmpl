@@ -7,8 +7,11 @@ packages_list="$packages_list $package"
 {{ end -}}
 sudo apt install -y $packages_list 
 
+printf -- "\n%s=== Adding Flathub Repository... ===%s\n"
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+printf -- "\n%s=== Update font cache... ===%s\n"
+fc-cache -f -v
 
 {{ range .packages.flatpak -}}
 if command -v flatpak > /dev/null; then
