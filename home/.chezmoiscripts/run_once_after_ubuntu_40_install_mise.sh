@@ -10,4 +10,4 @@ echo ""
 
 wget -qO- https://mise.run/ | sh
 
-mise install --yes --global
+mise install --yes 
