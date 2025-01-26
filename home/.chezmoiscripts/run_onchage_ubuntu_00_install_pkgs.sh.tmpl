@@ -9,6 +9,9 @@ sudo apt install -y $packages_list
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+sudo apt update
+sudo apt install code
 
 {{ range .packages.flatpak -}}
 if command -v flatpak > /dev/null; then
