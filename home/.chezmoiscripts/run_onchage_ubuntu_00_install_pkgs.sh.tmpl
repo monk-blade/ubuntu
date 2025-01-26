@@ -7,6 +7,8 @@ packages_list="$packages_list $package"
 {{ end -}}
 sudo apt install -y $packages_list 
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 packages_list=""
 {{ range .packages.flatpak -}}
 package={{ . | quote}}
