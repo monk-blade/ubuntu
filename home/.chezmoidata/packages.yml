@@ -56,6 +56,8 @@ packages:
     - 'fcitx5-modules-dev'
     - 'libffi-dev'
     - 'libyaml-dev'
+    - 'eza'
+    - 'bat'
 
   flatpak:
     - 'app.zen_browser.zen'
