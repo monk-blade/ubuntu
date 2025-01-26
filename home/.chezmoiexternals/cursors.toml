@@ -1,4 +1,4 @@
-[".local/share/icons"]
+[".local/share/icons/Bibata_Cursor"]
     type = "archive"
     url = "https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.7/Bibata.tar.xz"
     stripComponents = 0
