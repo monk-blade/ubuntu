@@ -1,6 +1,7 @@
 packages:
   apt:
     - 'git'
+    - 'gpg'
     - 'htop'
     - 'curl'
     - 'cmake'
