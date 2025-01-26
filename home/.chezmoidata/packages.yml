@@ -1,6 +1,7 @@
 packages:
   apt:
     - 'git'
+    - 'gh'
     - 'gpg'
     - 'htop'
     - 'curl'
