@@ -53,7 +53,9 @@ packages:
     - 'xdg-utils'
     - 'xdg-desktop-portal-gtk'
     - 'fcitx5'
-    - 'fcitx5-modules-dev' 
+    - 'fcitx5-modules-dev'
+    - 'libffi-dev'
+    - 'libyaml-dev'
 
   flatpak:
     - 'app.zen_browser.zen'
