@@ -1,8 +1,8 @@
-[".local/share/fonts"]
+[".local/share/fonts/IBMPlexMono"]
     stripComponents = 0
     type = "archive"
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/IBMPlexMono.zip"
-[".local/share/fonts"]
+[".local/share/fonts/IosevkaEtoile"]
     type = "archive"
     url = "https://github.com/be5invis/Iosevka/releases/download/v32.3.1/PkgTTC-IosevkaEtoile-32.3.1.zip"
     stripComponents = 0
