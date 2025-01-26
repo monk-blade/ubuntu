@@ -9,11 +9,9 @@ sudo apt install -y $packages_list
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-packages_list=""
+
 {{ range .packages.flatpak -}}
-package={{ . | quote}}
-packages_list="$packages_list $package"
-{{ end -}}
 if command -v flatpak > /dev/null; then
-    flatpak install -y flathub $packages_list 
+    flatpak install -y flathub {{ . | quote}}
 fi
+{{ end -}}
