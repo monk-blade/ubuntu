@@ -16,7 +16,7 @@ alias brl="br -dp"
 alias brgs="br -gc :gs"
 
 # Replace cat with bat
-alias cat="bat"
+alias cat="batcat"
 
 # gotestfmt
 alias gotestfmt="gotestfmt -hide 'empty-packages'"
