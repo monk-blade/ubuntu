@@ -8,6 +8,4 @@
 [".local/bin"]
     type = "archive"
     url = "https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.1/gcm-linux_amd64.2.6.1.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+    stripComponents = 0
